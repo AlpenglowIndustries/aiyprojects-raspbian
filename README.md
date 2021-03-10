@@ -17,7 +17,7 @@ Hardware Setup:
 * Google AIY Voice Hat Servo 0 right pin (GND) to Alpenglow FUnicorn button connector pin 4
 
 Also see [The FUnicorn on Hackaday.io][funicorn-hackaday] for more info and photos.
-For more irreverent electronics and frivolous circuits, follow us!
+For more irreverent electronics and frivolous circuits from a small woman-owned electronics business, follow us!
 * [Get our newsletter!][newsletter]
 * [frivolous_circs][twitter] on twitter
 * [frivolous.circuits][instagram] on instagram
