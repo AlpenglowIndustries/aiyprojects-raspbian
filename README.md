@@ -18,6 +18,7 @@ Hardware Setup:
 
 Also see [The FUnicorn on Hackaday.io][funicorn-hackaday] for more info and photos.
 For more irreverent electronics and frivolous circuits, follow us!
+* [Get our newsletter!][newsletter]
 * [frivolous_circs][twitter] on twitter
 * [frivolous.circuits][instagram] on instagram
 * [Alpenglow Industries][hackaday] on Hackaday
