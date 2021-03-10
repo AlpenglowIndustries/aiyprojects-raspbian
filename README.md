@@ -1,5 +1,7 @@
 # Alpenglow FUnicorn Google AIY Voice Repo
 
+**NOTE!  UPON CLONING THIS REPO MAKE SURE YOU CHECK OUT THE AIYPROJECTS BRANCH.  GOOGLE DISCONTINUED THE DEFAULT MASTER BRANCH.  IT IS OLD.  DO NOT USE.**
+
 This repo is for an [Alpenglow Industries FUnicorn board][alpenglow-funicorn] hooked up to a Google AIY Voice Hat version 1 on a Raspberry Pi 3B+.  It basically makes the FUnicorn voice-activated, so you can say "Hey Google, Fuck You!" and beautiful LEDs written in cursive script light up with "Fuck You!", next to a majestic rearing gold unicorn.  What's not to love?
 
 This was forked from the Google AIY Projects repo, original info on that below.
