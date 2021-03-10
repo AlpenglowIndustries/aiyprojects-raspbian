@@ -1,4 +1,36 @@
-# AIY Projects
+# Alpenglow FUnicorn Google AIY Voice Repo
+
+This repo is for an [Alpenglow Industries FUnicorn board][alpenglow-funicorn] hooked up to a Google AIY Voice Hat version 1 on a Raspberry Pi 3B+.  It basically makes the FUnicorn voice-activated, so you can say "Hey Google, Fuck You!" and beautiful LEDs written in cursive script light up with "Fuck You!", next to a majestic rearing gold unicorn.  What's not to love?
+
+This was forked from the Google AIY Projects repo, original info on that below.
+
+Changes and Additions:
+* cloudspeech.py was updated according to description in [issue 716][issue-716].
+* demo python scripts for the FUnicorn added to src/examples/voice
+
+Examples:
+* funicorn_demo_wassistant.py has full Google Assistant functionality and is commanded via the wake word (OK Google or Hey Google), and outputs a "button press" to the FUnicorn when "fuck you" is uttered.  It also says "No, Fuck You" in a most excellent obviously computer-generated voice.
+* funicorn_demo_alwayslistening.py is solely a cloud speech to text demo that is always listening and interpreting.  There is no Google Assistant functionality.
+
+Hardware Setup:
+* Google AIY Voice Hat Servo 0 left pin (GPIO26) to Alpenglow FUnicorn button connector pin 3
+* Google AIY Voice Hat Servo 0 right pin (GND) to Alpenglow FUnicorn button connector pin 4
+
+Also see [The FUnicorn on Hackaday.io][funicorn-hackaday] for more info and photos.
+For more irreverent electronics and frivolous circuits, follow us!
+* [frivolous_circs][twitter] on twitter
+* [frivolous.circuits][instagram] on instagram
+* [Alpenglow Industries][hackaday] on Hackaday
+* [Alpenglow Industries][youtube] on YouTube
+
+Web and Storefronts:
+* Alpenglow Industries [website][alpenglowindustries.com]
+* Our products [on Tindie][tindie]
+* Our products [on Digi-Key][digikey]
+
+--------
+
+## AIY Projects
 
 This repository contains an easy-to-use Python API for the [AIY Vision Kit][aiy-vision]
 and [AIY Voice Kit][aiy-voice]. The code for all AIY kits is in the `aiyprojects` branch,
@@ -48,6 +80,18 @@ or provides incorrect responses), try the following:
 <p align="center">
   <img width="15%" src="https://aiyprojects.withgoogle.com/static/images/icons/aiy-circular-logo.svg">
 </p>
+
+[newsletter]: https://www.alpenglowindustries.com/newsletter.html
+[twitter]: https://twitter.com/frivolous_circs
+[instagram]: https://www.instagram.com/frivolous.circuits/
+[hackaday]: https://hackaday.io/alpenglow
+[youtube]: https://www.youtube.com/alpenglowindustries
+[alpenglowindustries.com]: https://www.alpenglowindustries.com/
+[tindie]: https://www.tindie.com/stores/alpenglow/
+[digikey]: https://www.digikey.com/en/products/result?s=N4IgTCBcDaIIYBsAOBTAdgcwQewO4gF0BfIA
+[alpenglow-funicorn]: https://www.tindie.com/products/alpenglow/the-funicorn/
+[issue-716]: https://github.com/google/aiyprojects-raspbian/issues/716
+[funicorn-hackaday]: https://hackaday.io/project/173726-the-funicorn
 
 [HACKING.md]: HACKING.md
 [CONTRIBUTING.md]: CONTRIBUTING.md
